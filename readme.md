@@ -1,6 +1,6 @@
 Just a simple program/app that helps me do some job research. :) 
 
-Started building, so far from complete.
+Started building. So, far from complete.
 
 ## Todos/ideas
 
