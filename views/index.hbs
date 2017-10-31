@@ -1,0 +1,22 @@
+<h1>{{title}}</h1>
+
+<table class="table">
+    <tr>
+        <th>Title</th>
+        <th>Application Link</th>
+        <th>Job Type</th>
+        <th>Langauge/Stack</th>
+        <th>Notes</th>
+        <th></th>
+    </tr>
+    {{#each job}} 
+        <tr>
+            <td>{{ this.title }}</td>
+            <td><a href="{{ this.application_link }}" target="_blank">{{ this.application_link }}</a></td>
+            <td>{{ this.job_type }}</td>
+            <td>{{ this.language_or_stack }}</td>
+            <td>{{ this.notes }}</td>
+            <td><a href="#" class="btn btn-info btn-sm">Edit</a></td>
+        </tr>
+    {{/each}}
+</table>
